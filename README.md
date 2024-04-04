@@ -275,5 +275,3 @@ HAVING SUM(Invoice.Balence_Due) > 10000
 ORDER BY TotalBalanceDue DESC;
 
 ![image](https://github.com/charles8888/Project-1/assets/150093221/5c971d08-4572-4139-b6de-bb7e01cae213)
-
-# Database Information
