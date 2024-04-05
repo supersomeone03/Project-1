@@ -91,8 +91,34 @@ These are just some initial considerations based on the typical needs of an emer
 
 <img width="700" alt="MIST4610 DataModel" src="https://github.com/charles8888/Project-1/assets/150093221/b4bd19e0-1c2a-4258-85aa-45e592a25839">
 
+With the problem description being that of a hospital background, our data model first starts with a patient table with core attributes such as patient ID, patient full name, their address, their contact, date of birth, and their insurance ID. A patient can have many modes of transportation, creating a transportation table which includes the name of transport, a description, its license plate, and the name of the driver. A patient can give many reviews, creating a review table with a unique review number, the date of submission, a description of the review, and the rating itself. A patient can have more than one emergency contact(s), which allows for a emergency contact table of basic information of their emergency contact. A patient can have multiple appointments, the appointment table including attributes such as the appointment ID, and their expected date of visit. There is a many to many relationship between a patient and an invoice, creating an associative entity (patient_has_invoice). A patient can use multiple rooms, and the room table has attributes such as the number of beds, its availability, and its unique room number. A room and equipment table have a many to many relationship, creating an associative entity (rooms_has_equipment).
 
 # Data Dictionary
+![image](https://github.com/charles8888/Project-1/assets/150093221/502c785f-b3ae-4a23-bf44-ff3ec6075277)
+
+![image](https://github.com/charles8888/Project-1/assets/150093221/3e13eaec-e705-49e7-9460-bf794ba0cd8a)
+
+![image](https://github.com/charles8888/Project-1/assets/150093221/15f2e82e-155f-475d-a5e4-75665a06b459)
+
+![image](https://github.com/charles8888/Project-1/assets/150093221/63c9826d-7c28-4c78-b9df-ec643d6c391e)
+
+![image](https://github.com/charles8888/Project-1/assets/150093221/4ec969c6-6e98-49a7-afcb-10fdb94ab735)
+
+![image](https://github.com/charles8888/Project-1/assets/150093221/3803eadd-5ba1-4114-9ff5-fa9e3d626330)
+
+![image](https://github.com/charles8888/Project-1/assets/150093221/43f7b63a-0371-4a62-afca-b8fe64c610e6)
+
+![image](https://github.com/charles8888/Project-1/assets/150093221/ec8b2467-c608-4984-a717-dd28f05ff3f3)
+
+![image](https://github.com/charles8888/Project-1/assets/150093221/7031846d-706e-47e9-b75d-f1f888d6251c)
+
+![image](https://github.com/charles8888/Project-1/assets/150093221/45903905-731b-4b61-b0b0-5fa8a9ede66b)
+
+![image](https://github.com/charles8888/Project-1/assets/150093221/ea3513eb-c897-4628-beeb-38b4e79cee5b)
+
+![image](https://github.com/charles8888/Project-1/assets/150093221/86260995-ac28-417c-aacd-27a20505efd4)
+
+![image](https://github.com/charles8888/Project-1/assets/150093221/3857326a-0f7f-4e44-89c3-97de9732e2ec)
 
 # 4 Simple Queries
 **#1 Select the name and DOB for all patients born in 1999**
