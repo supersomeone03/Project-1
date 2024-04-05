@@ -3,8 +3,8 @@
 1. Charlie Kim [@charles8888](https://github.com/charles8888)
 2. Gwen Wentworth [@gaw63800](https://github.com/gaw63800)
 3. Caroline Cooper [@carolinetcooper6](https://github.com/carolinetcooper6)
-4. Kishen Patel [@hubahakhtar](https://github.com/hubahakhtar)
-5. Hubah Akhtar [@supersomeone03](https://github.com/supersomeone03)
+4. Kishen Patel [@hubahakhtar](https://github.com/supersomeone03)
+5. Hubah Akhtar [@supersomeone03](https://github.com/hubahakhtar)
 # Problem Description:
 Pretend you are the owner/operator of an emergency healthcare clinic needing to build a relational database. You hired some students from the MIST 4610 class at the University of Georgia to create the database for you. 
 They need to know more about your organization to identify which entities, attributes, and relationships are important for you. Start by describing your business as a real client. 
